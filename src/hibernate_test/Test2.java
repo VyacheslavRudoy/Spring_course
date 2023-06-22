@@ -13,7 +13,6 @@ public class Test2 {
                 .buildSessionFactory();
 
         try {
-
             Session session = factory.getCurrentSession();
             Employee emp = new Employee("Oleg", "Sidorov", "HR", 700);
             session.beginTransaction();
